@@ -2,7 +2,7 @@ import { assert } from "chai";
 
 import { humanReadable } from "../../src/HumanReadableTime";
 
-describe('examples', function() {
+describe('HumanReadableTime', function() {
   it('should format correctly', function() {
     assert.equal(humanReadable(0), '00:00:00', 'humanReadable(0)');
     assert.equal(humanReadable(5), '00:00:05', 'humanReadable(5)');
