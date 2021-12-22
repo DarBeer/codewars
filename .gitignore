@@ -1,0 +1,6 @@
+# GIT ###########
+dist
+
+# YARN ##########
+node_modules
+yarn.lock
